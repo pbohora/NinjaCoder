@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="=" style.css />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab"
       rel="stylesheet"
@@ -18,33 +18,33 @@
     <title>NinjaCoder</title>
   </head>
   <body>
+    <div id="slideout-menu">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <input type="text" placeholder="Search" />
+          <br />
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
     <nav>
-      <div id="slideout-menu">
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <input type="text" placeholder="Search" />
-            <br />
-            <a href="#">
-              <i class="fas fa-search"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
       <div id="logo-img">
         <a href="#">
-          <img src="img/logo.png" alt="NinjaCoder logo" />
+          <img src="assets/logo.png" alt="NinjaCoder logo" />
         </a>
       </div>
       <div id="menu-icon">
@@ -52,7 +52,7 @@
       </div>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a class="active" href="#">Home</a>
         </li>
         <li>
           <a href="#">Blog</a>
@@ -82,13 +82,13 @@
 
     <main>
       <a href="#">
-        <h2 id="section-heading">All blogs</h2>
+        <h2 class="section-heading">All blogs</h2>
       </a>
       <section>
         <div class="card">
           <div class="card-image">
             <a href="#">
-              <img src="" alt="Card Image" />
+              <img src="assets/3.jpg" alt="Card Image" />
             </a>
           </div>
           <div class="card-description">
@@ -108,7 +108,7 @@
         <div class="card">
           <div class="card-image">
             <a href="#">
-              <img src="" alt="Card Image" />
+              <img src="assets/4.jpg" alt="Card Image" />
             </a>
           </div>
           <div class="card-description">
@@ -132,7 +132,7 @@
         <div class="card">
           <div class="card-image">
             <a href="#">
-              <img src="" alt="Card Image" />
+              <img src="assets/1.jpg" alt="Card Image" />
             </a>
           </div>
           <div class="card-description">
@@ -152,7 +152,7 @@
         <div class="card">
           <div class="card-image">
             <a href="#">
-              <img src="" alt="Card Image" />
+              <img src="assets/2.jpg" alt="Card Image" />
             </a>
           </div>
           <div class="card-description">
@@ -169,6 +169,38 @@
           </div>
         </div>
       </section>
+
+      <h2 class="section-heading">Source code</h2>
+
+      <section id="section-source">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut
+          molestiae repudiandae voluptatibus sequi at doloremque, facere tempore
+          cum nostrum officiis amet ipsum. Aspernatur provident mollitia
+          perferendis laudantium odit nulla!
+        </p>
+        <a href="#">GitHub Profile</a>
+      </section>
+
+      <footer>
+        <div id="footer">
+          <h3>Follow me on</h3>
+          <div id="social-media" class="footer">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>This website is developed by NinjaCoder</p>
+      </footer>
     </main>
   </body>
 </html>
