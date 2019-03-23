@@ -172,10 +172,12 @@ nav ul {
   background: beige;
   z-index: 100;
   position: fixed;
-  transition: 0.4s;
+  transition: 0.8s;
   margin-top: 72px;
   width: 100%;
   text-align: center;
+  opacity: 0;
+  pointer-events: none;
 }
 
 #slideout-menu ul {
@@ -322,7 +324,7 @@ footer #social-media ul li:hover a .fa-github {
     width: 100%;
   }
   h1 {
-    font-size: 48px;
+    font-size: 46px;
   }
   #banner h3 {
     font-size: 20px;
@@ -358,7 +360,7 @@ footer #social-media ul li:hover a .fa-github {
     display: flex;
   }
   #slideout-menu {
-    /* display: block; */
+    display: block;
   }
   #searchbox {
     display: none;
