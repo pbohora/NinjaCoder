@@ -30,7 +30,7 @@ menuIcon.addEventListener("click", function() {
 
 window.addEventListener("scroll", function(e) {
   e.preventDefault();
-  if (window.scrollY >= 150) {
+  if (window.scrollY >= 100) {
     navBar.classList.add("nav-scroll");
   } else {
     navBar.classList.remove("nav-scroll");
