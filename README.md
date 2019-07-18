@@ -1,3 +1,3 @@
 # NinjaCoder
 
-A completely responsive custom website using WordPress, HTML, CSS, JavaScript, PHP.
+A completely responsive portfolio developed with HTML, CSS and Javascript.
